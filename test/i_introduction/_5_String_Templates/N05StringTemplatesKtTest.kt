@@ -6,6 +6,7 @@ import org.junit.Test
 import java.util.regex.Pattern
 
 class N05StringTemplatesKtTest {
+
     @Test fun match() {
         assertTrue("11 MAR 1952".matches(task5().toRegex()))
     }
